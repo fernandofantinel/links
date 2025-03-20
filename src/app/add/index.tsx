@@ -67,7 +67,12 @@ export default function Add() {
           autoCorrect={false}
           autoCapitalize="none"
         />
-        <Input placeholder="URL" onChangeText={setUrl} autoCorrect={false} />
+        <Input
+          placeholder="URL"
+          onChangeText={setUrl}
+          autoCorrect={false}
+          autoCapitalize="none"
+        />
         <Button title="Adicionar" onPress={handleAdd} />
       </View>
     </View>
