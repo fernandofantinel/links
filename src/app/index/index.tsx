@@ -101,6 +101,11 @@ export default function Index() {
         style={styles.links}
         contentContainerStyle={styles.linksContent}
         showsVerticalScrollIndicator={false}
+        ListEmptyComponent={() => (
+          <Text style={styles.listEmptyText}>
+            Nenhum link salvo nesta categoria.
+          </Text>
+        )}
       />
 
       <Modal transparent animationType="slide" visible={showModal}>

@@ -73,4 +73,10 @@ export const styles = StyleSheet.create({
     borderTopColor: colors.gray[600],
     paddingVertical: 14,
   },
+  listEmptyText: {
+    marginTop: 12,
+    color: colors.gray[400],
+    fontSize: 14,
+    textAlign: "center",
+  },
 })
